@@ -1,0 +1,31 @@
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.capa {
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 150px;
+}
+
+.cabeçalho>nav {
+    justify-content: flex-end;
+}
+
+.cabeçalho>img {
+    margin-top: 10px
+}
+
+h4 {
+    text-align: center;
+}

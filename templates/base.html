@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/stylesheet.css">
+</head>
+
+<body background="../static/fundo.png">
+
+    <!-- cabeçalho -->
+    <div class="cabeçalho">
+        <!-- imagem -->
+        <img id="logo" src="./static/logo.png" alt="logo">
+        <!-- links -->
+        <nav>
+            <a href="/">Home |</a>
+            <a href="/quemsomos">Quem Somos |</a>
+            <a href="/contato">Contato</a>
+        </nav>
+
+    </div>
+
+        {% block conteudo %}
+        {% endblock %}
+
+
+
+</body>
+
+</html>
